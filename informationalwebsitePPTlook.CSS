@@ -1,0 +1,24 @@
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.slide {
+    background-color: cyan;
+    border: 2px solid red;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: black; /* Or another contrasting color */
+}
